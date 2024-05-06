@@ -20,7 +20,7 @@ replace (
 
 	// forked go-yaml that introduces RawYAML interface, which can be used to populate YAML fields using bytes
 	// which are then encoded as a valid YAML blocks with proper indentiation
-	gopkg.in/yaml.v3 => github.com/unix4ever/yaml v0.0.0-20220527175918-f17b0f05cf2c
+	gopkg.in/yaml.v3 => github.com/unix4ever/yaml/v2 v2.4.0
 )
 
 // Kubernetes dependencies sharing the same version.
@@ -110,7 +110,7 @@ require (
 	github.com/opencontainers/image-spec v1.1.0
 	github.com/opencontainers/runtime-spec v1.2.0
 	github.com/packethost/packngo v0.31.0
-	github.com/pelletier/go-toml v1.9.5
+	github.com/pelletier/go-toml/v2 v2.2.2
 	github.com/pin/tftp/v3 v3.1.0
 	github.com/pmorjan/kmod v1.1.1
 	github.com/prometheus/procfs v0.14.0

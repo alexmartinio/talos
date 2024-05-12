@@ -14,8 +14,7 @@ env:
 
 jobs:
   talos-build:
-    runs-on: buildjet-4vcpu-ubuntu-2204-arm
-
+  
     permissions:
       actions: read
       contents: write

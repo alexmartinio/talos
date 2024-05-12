@@ -14,7 +14,7 @@ env:
 
 jobs:
   talos-build:
-  
+    runs-on: ubuntu-latest
     permissions:
       actions: read
       contents: write
